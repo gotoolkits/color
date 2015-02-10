@@ -80,3 +80,36 @@ func Cyan(args ...interface{}) string {
 func White(args ...interface{}) string {
     return ColorizeAll(FgWhite, args...)
 }
+
+
+func BlackBG(args ...interface{}) string {
+    return ColorizeAll(BgBlack, args...)
+}
+
+func RedBG(args ...interface{}) string {
+    return ColorizeAll(BgRed, args...)
+}
+
+func GreenBG(args ...interface{}) string {
+    return ColorizeAll(BgGreen, args...)
+}
+
+func YellowBG(args ...interface{}) string {
+    return ColorizeAll(BgYellow, args...)
+}
+
+func BlueBG(args ...interface{}) string {
+    return ColorizeAll(BgBlue, args...)
+}
+
+func MagentaBG(args ...interface{}) string {
+    return ColorizeAll(BgMagenta, args...)
+}
+
+func CyanBG(args ...interface{}) string {
+    return ColorizeAll(BgCyan, args...)
+}
+
+func WhiteBG(args ...interface{}) string {
+    return ColorizeAll(BgWhite, args...)
+}
